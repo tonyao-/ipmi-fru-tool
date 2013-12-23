@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="C-Code">
+      <UniqueIdentifier>{b221aa58-77ea-4fdd-a909-e4a235ac18a2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\file_view.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\file_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\class_view.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\class_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\fileview.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\fileview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\classview.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\classview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\explorer.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\explorer_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sort.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sort_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\menuimages.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\menuimages_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\output_wnd.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\output_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_wnd.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="UserImages.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\IpmTool.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\IpmToolDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\IpmTool.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IpmTool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IpmToolDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IpmToolView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FruInfoTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTreeCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="typedef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckSum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCPropertyGridPropertyEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCPropertyGridCtrlEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Common_Define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FruRepo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropFruReco.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropFruInfoPart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropCommonHeader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropCarrierPowerPolicy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropCarrierManagerIpLink.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropCarrierPtPConn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropCarrierActAndPm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropModuleCurrentReq.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropAmcPtpConn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sdr.h">
+      <Filter>C-Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>C-Code</Filter>
+    </ClInclude>
+    <ClInclude Include="FruInfo.h">
+      <Filter>C-Code</Filter>
+    </ClInclude>
+    <ClInclude Include="FruInfoCm.h">
+      <Filter>C-Code</Filter>
+    </ClInclude>
+    <ClInclude Include="SensorEventType.h">
+      <Filter>C-Code</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigInfoTester.h">
+      <Filter>C-Code</Filter>
+    </ClInclude>
+    <ClInclude Include="PropSdr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropPowerCapability.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropSdrFullSensor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropSdrCompactSensor.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgFruRepoSetting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FruAttr.h">
+      <Filter>C-Code</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgFruRepoSettingMmc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgFruRepoSettingPm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgFruRepoSettingCu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgFruRepoSettingCm.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgConfigInfoSetting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropFruCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Command_Define.h">
+      <Filter>C-Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IpmTool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IpmToolDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IpmToolView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FruInfoTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTreeCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckSum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCPropertyGridPropertyEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCPropertyGridCtrlEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FruRepo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropFruReco.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropFruInfoPart.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropCommonHeader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropCarrierInformation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropCarrierPowerPolicy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropCarrierManagerIpLink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropCarrierPtPConn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropCarrierActAndPm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropModuleCurrentReq.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropAmcPtpConn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropPowerCapability.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropSdr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Sdr.c">
+      <Filter>C-Code</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.c">
+      <Filter>C-Code</Filter>
+    </ClCompile>
+    <ClCompile Include="FruInfoCm.c">
+      <Filter>C-Code</Filter>
+    </ClCompile>
+    <ClCompile Include="FruInfo.c">
+      <Filter>C-Code</Filter>
+    </ClCompile>
+    <ClCompile Include="SensorEventType.c">
+      <Filter>C-Code</Filter>
+    </ClCompile>
+    <ClCompile Include="PropSdrFullSensor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigInfoTester.c">
+      <Filter>C-Code</Filter>
+    </ClCompile>
+    <ClCompile Include="PropSdrCompactSensor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgFruRepoSetting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FruAttr.c">
+      <Filter>C-Code</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgFruRepoSettingPm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgFruRepoSettingMmc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgFruRepoSettingCu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgFruRepoSettingCm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgConfigInfoSetting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropFruCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IpmTool.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
