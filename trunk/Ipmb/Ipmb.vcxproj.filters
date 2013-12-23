@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="C-Code">
+      <UniqueIdentifier>{87e97e7b-8f83-42e4-94eb-f9f2ba08102d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H-Code">
+      <UniqueIdentifier>{6f51f248-2bfe-473d-a774-82246c0dcc89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="Ipmb.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="res\Ipmb.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MfcIpmb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\CheckSum.c">
+      <Filter>C-Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Common.c">
+      <Filter>C-Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Crb.c">
+      <Filter>C-Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Filter.c">
+      <Filter>C-Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\IicCmd.c">
+      <Filter>C-Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\IicCrb.c">
+      <Filter>C-Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Ipmb.c">
+      <Filter>C-Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\IpmiCmd.c">
+      <Filter>C-Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\List.c">
+      <Filter>C-Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\queue.c">
+      <Filter>C-Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\SwTimer.c">
+      <Filter>C-Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\TransferDriver.c">
+      <Filter>C-Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Exports.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MfcIpmb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\CheckSum.h">
+      <Filter>H-Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Command_Define.h">
+      <Filter>H-Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Common_Define.h">
+      <Filter>H-Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Crb.h">
+      <Filter>H-Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Debug.h">
+      <Filter>H-Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Filter.h">
+      <Filter>H-Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\IicCmd.h">
+      <Filter>H-Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\IicCrb.h">
+      <Filter>H-Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Ipmb.h">
+      <Filter>H-Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\IpmiCmd.h">
+      <Filter>H-Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\List.h">
+      <Filter>H-Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Message.h">
+      <Filter>H-Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\queue.h">
+      <Filter>H-Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\SwTimer.h">
+      <Filter>H-Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\TransferDriver.h">
+      <Filter>H-Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\typedef.h">
+      <Filter>H-Code</Filter>
+    </ClInclude>
+    <ClInclude Include="IpmbApi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Ipmb.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

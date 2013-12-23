@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5007BEB7-6752-4482-BE91-8956F240DCFE}</ProjectGuid>
+    <RootNamespace>IpmTool</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions);XDEBUG</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\classview.bmp" />
+    <None Include="res\classview_hc.bmp" />
+    <None Include="res\class_view.ico" />
+    <None Include="res\class_view_hc.ico" />
+    <None Include="res\explorer.bmp" />
+    <None Include="res\explorer_hc.bmp" />
+    <None Include="res\fileview.bmp" />
+    <None Include="res\fileview_hc.bmp" />
+    <None Include="res\file_view.ico" />
+    <None Include="res\file_view_hc.ico" />
+    <None Include="res\IpmTool.ico" />
+    <None Include="res\IpmTool.rc2" />
+    <None Include="res\IpmToolDoc.ico" />
+    <None Include="res\menuimages.bmp" />
+    <None Include="res\menuimages_hc.bmp" />
+    <None Include="res\output_wnd.ico" />
+    <None Include="res\output_wnd_hc.ico" />
+    <None Include="res\properties.bmp" />
+    <None Include="res\properties_hc.bmp" />
+    <None Include="res\properties_wnd.ico" />
+    <None Include="res\properties_wnd_hc.ico" />
+    <None Include="res\sort.bmp" />
+    <None Include="res\sort_hc.bmp" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="UserImages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Command_Define.h" />
+    <ClInclude Include="ConfigInfoTester.h" />
+    <ClInclude Include="DlgConfigInfoSetting.h" />
+    <ClInclude Include="DlgFruRepoSetting.h" />
+    <ClInclude Include="DlgFruRepoSettingCm.h" />
+    <ClInclude Include="DlgFruRepoSettingCu.h" />
+    <ClInclude Include="DlgFruRepoSettingMmc.h" />
+    <ClInclude Include="DlgFruRepoSettingPm.h" />
+    <ClInclude Include="FruAttr.h" />
+    <ClInclude Include="PropAmcPtpConn.h" />
+    <ClInclude Include="PropCarrierActAndPm.h" />
+    <ClInclude Include="PropCarrierManagerIpLink.h" />
+    <ClInclude Include="CheckSum.h" />
+    <ClInclude Include="ClassView.h" />
+    <ClInclude Include="Common_Define.h" />
+    <ClInclude Include="Debug.h" />
+    <ClInclude Include="Field.h" />
+    <ClInclude Include="FileView.h" />
+    <ClInclude Include="FruInfo.h" />
+    <ClInclude Include="FruInfoCm.h" />
+    <ClInclude Include="FruInfoTree.h" />
+    <ClInclude Include="PropCarrierPowerPolicy.h" />
+    <ClInclude Include="PropCarrierPtPConn.h" />
+    <ClInclude Include="PropFruCtrl.h" />
+    <ClInclude Include="PropFruReco.h" />
+    <ClInclude Include="FruRepo.h" />
+    <ClInclude Include="PropCommonHeader.h" />
+    <ClInclude Include="PropFruInfoPart.h" />
+    <ClInclude Include="IpmTool.h" />
+    <ClInclude Include="IpmToolDoc.h" />
+    <ClInclude Include="IpmToolView.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MFCPropertyGridCtrlEx.h" />
+    <ClInclude Include="MFCPropertyGridPropertyEx.h" />
+    <ClInclude Include="MyTreeCtrl.h" />
+    <ClInclude Include="OutputWnd.h" />
+    <ClInclude Include="PropertiesWnd.h" />
+    <ClInclude Include="PropSdrCompactSensor.h" />
+    <ClInclude Include="PropSdrFullSensor.h" />
+    <ClInclude Include="PropModuleCurrentReq.h" />
+    <ClInclude Include="PropPowerCapability.h" />
+    <ClInclude Include="PropSdr.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Sdr.h" />
+    <ClInclude Include="SensorEventType.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="typedef.h" />
+    <ClInclude Include="ViewTree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConfigInfoTester.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="DlgConfigInfoSetting.cpp" />
+    <ClCompile Include="DlgFruRepoSetting.cpp" />
+    <ClCompile Include="DlgFruRepoSettingCm.cpp" />
+    <ClCompile Include="DlgFruRepoSettingCu.cpp" />
+    <ClCompile Include="DlgFruRepoSettingMmc.cpp" />
+    <ClCompile Include="DlgFruRepoSettingPm.cpp" />
+    <ClCompile Include="FruAttr.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="PropAmcPtpConn.cpp" />
+    <ClCompile Include="PropCarrierActAndPm.cpp" />
+    <ClCompile Include="PropCarrierManagerIpLink.cpp" />
+    <ClCompile Include="CheckSum.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ClassView.cpp" />
+    <ClCompile Include="debug.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Field.cpp" />
+    <ClCompile Include="FileView.cpp" />
+    <ClCompile Include="FruInfo.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="FruInfoCm.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="FruInfoTree.cpp" />
+    <ClCompile Include="PropCarrierInformation.cpp" />
+    <ClCompile Include="PropCarrierPowerPolicy.cpp" />
+    <ClCompile Include="PropCarrierPtPConn.cpp" />
+    <ClCompile Include="PropFruCtrl.cpp" />
+    <ClCompile Include="PropFruReco.cpp" />
+    <ClCompile Include="FruRepo.cpp" />
+    <ClCompile Include="PropCommonHeader.cpp" />
+    <ClCompile Include="PropFruInfoPart.cpp" />
+    <ClCompile Include="IpmTool.cpp" />
+    <ClCompile Include="IpmToolDoc.cpp" />
+    <ClCompile Include="IpmToolView.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MFCPropertyGridCtrlEx.cpp" />
+    <ClCompile Include="MFCPropertyGridPropertyEx.cpp" />
+    <ClCompile Include="MyTreeCtrl.cpp" />
+    <ClCompile Include="OutputWnd.cpp" />
+    <ClCompile Include="PropertiesWnd.cpp" />
+    <ClCompile Include="PropSdrCompactSensor.cpp" />
+    <ClCompile Include="PropSdrFullSensor.cpp" />
+    <ClCompile Include="PropModuleCurrentReq.cpp" />
+    <ClCompile Include="PropPowerCapability.cpp" />
+    <ClCompile Include="PropSdr.cpp" />
+    <ClCompile Include="Sdr.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SensorEventType.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ViewTree.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IpmTool.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="IpmTool.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
