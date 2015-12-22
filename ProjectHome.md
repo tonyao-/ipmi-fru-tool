@@ -1,0 +1,1 @@
+A tool for config/read/write fru data
